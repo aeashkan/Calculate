@@ -1,0 +1,17 @@
+{
+  "name": "pa_project",
+  "version": "1.0.0",
+  "description": "PA Project",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "export NODE_ENV=test && node server.js"
+  },
+  "dependencies": {
+    "config": "^3.3.12",
+    "express": "^5.1.0",
+    "mongoose": "^8.13.2",
+    "node": "^23.11.0",
+    "nodemon": "^3.1.9"
+  }
+}
